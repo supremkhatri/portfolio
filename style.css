@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#1f2937;
+    color: white;
+    padding: 1rem 4rem;
+}
+footer{
+    background-color: #9ec7fc;
+    padding: 1rem 4rem;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation{
+ display: flex;
+ 
+ align-items: center;
+ gap: 2rem;
+}
+
+.navigation>p:hover{
+    color: wheat;
+    cursor: pointer;
+}
+.navigation>a:hover{
+    color: rgb(153, 124, 255);
+    cursor: pointer;
+}
+
+
+/*hero section */
+.hero-section{
+    background-color: #1f2937;
+    padding: 5rem 8rem;
+    gap: 12rem;     
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero1>p{
+    margin-bottom: 20px;
+}
+
+.hero1{
+    width: 46%;
+}
+.hero2{
+    width: 54%;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 4px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(181, 181, 250);
+}
+
+.image-container{
+    background-color: grey;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainimage{
+    width: 400px;
+    height: 400px;
+}
+
+/* showcase container*/
+.showcase-container{
+    padding: 6rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    
+}
+.boxes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 20px
+}
+.box-container >p{
+    width: 150px;
+    
+}
+
+.project-image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(147, 147, 218);
+    border-radius: 4px;
+}
+
+.website-link{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 25%;
+   border: 2px  black;
+   border-radius: 9px;
+
+}
